@@ -1,0 +1,33 @@
+{
+    "name": "express-mongodb-rest",
+    "version": "1.0.0",
+    "description": "Demo app",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "npx nodemon index.js",
+        "format": "npx prettier --write .",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dmtrxw/express-mongodb-rest.git"
+    },
+    "author": "Dimitri Wahyudiputra",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/dmtrxw/express-mongodb-rest/issues"
+    },
+    "homepage": "https://github.com/dmtrxw/express-mongodb-rest#readme",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.18.2",
+        "mongodb": "5.3",
+        "yup": "^1.1.1"
+    },
+    "devDependencies": {
+        "dotenv": "^16.0.3",
+        "nodemon": "^2.0.22",
+        "prettier": "^2.8.8"
+    }
+}
